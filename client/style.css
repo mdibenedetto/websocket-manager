@@ -1,0 +1,75 @@
+main {
+  width: 800px;
+  margin: 0 auto;
+  border: 1px solid;
+  padding: 1rem;
+}
+
+h1 {
+  margin: 0.5rem;
+}
+
+hr {
+  margin-block: 0.5rem;
+}
+
+section {
+  display: flex;
+  width: 100%;
+}
+
+.form-message {
+  display: inline-flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+#txt-message {
+  width: auto;
+  min-height: 150px;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+}
+
+#btn-send {
+  width: fit-content;
+}
+
+#ws-output {
+  padding: 0.5rem;
+}
+
+/* utility classes */
+
+.alert {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+
+.alert-info {
+  color: #005574;
+  background-color: #d6f0fa;
+  border-color: #00a3e0;
+}
+
+.alert-warning {
+  color: #664d03;
+  background-color: #fff3cd;
+  border-color: #ffecb5;
+}
+
+.alert-danger {
+  color: #6a1818;
+  background-color: #f5d5d5;
+  border-color: #f1c5c5;
+  transition: all 0.5s ease-in-out;
+}
+
+.alert-success {
+  color: #3e6311;
+  background-color: #e4f2d2;
+  border-color: #d9edc1;
+}

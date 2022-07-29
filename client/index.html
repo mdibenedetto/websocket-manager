@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" type="module"></script>
+  </head>
+  <body id="box">
+    <main>
+      <section class="form-message">
+        <header>
+          <h1>Simple Websocket</h1>
+        </header>
+        <textarea id="txt-message" autofocus>Default message</textarea>
+        <br />
+        <button id="btn-send">Send message</button>
+      </section>
+      <hr />
+
+      <section>
+        <output id="ws-output" class="alert alert-info">
+          Server has not been contacted yet
+        </output>
+      </section>
+    </main>
+  </body>
+</html>
